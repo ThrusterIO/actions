@@ -1,0 +1,33 @@
+{
+    "name": "thruster/actions",
+    "type": "library",
+    "description": "Thruster Actions Component",
+    "keywords": ["actions", "thruster"],
+    "homepage": "https://thruster.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aurimas Niekis",
+            "email": "aurimas@niekis.lt"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "funct/funct": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+        "psr-4": { "Thruster\\Component\\Actions\\": "src" }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-ci": "vendor/bin/phpunit -c phpunit.xml.ci"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
