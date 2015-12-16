@@ -20,7 +20,7 @@
         <whitelist>
             <directory>./src</directory>
             <exclude>
-                <directory>./Tests</directory>
+                <directory>./src/Tests</directory>
             </exclude>
         </whitelist>
     </filter>
